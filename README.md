@@ -1,2 +1,2 @@
-# step-tracker
-HealthKit & Charts iOS Project
+# health-app-ios
+HealthKit + Charts iOS Project
