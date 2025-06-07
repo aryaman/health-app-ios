@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		53C619BC2DF3FF5B007F9A5A /* AryamanHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AryamanHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C619E82DF402A6007F9A5A /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		53C619BE2DF3FF5B007F9A5A /* AryamanHealthApp */ = {
+		53C619EA2DF402A6007F9A5A /* HealthApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AryamanHealthApp;
+			path = HealthApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53C619B92DF3FF5B007F9A5A /* Frameworks */ = {
+		53C619E52DF402A6007F9A5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53C619B32DF3FF5B007F9A5A = {
+		53C619DF2DF402A6007F9A5A = {
 			isa = PBXGroup;
 			children = (
-				53C619BE2DF3FF5B007F9A5A /* AryamanHealthApp */,
-				53C619BD2DF3FF5B007F9A5A /* Products */,
+				53C619EA2DF402A6007F9A5A /* HealthApp */,
+				53C619E92DF402A6007F9A5A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		53C619BD2DF3FF5B007F9A5A /* Products */ = {
+		53C619E92DF402A6007F9A5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53C619BC2DF3FF5B007F9A5A /* AryamanHealthApp.app */,
+				53C619E82DF402A6007F9A5A /* HealthApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53C619BB2DF3FF5B007F9A5A /* AryamanHealthApp */ = {
+		53C619E72DF402A6007F9A5A /* HealthApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53C619CA2DF3FF5D007F9A5A /* Build configuration list for PBXNativeTarget "AryamanHealthApp" */;
+			buildConfigurationList = 53C619F62DF402A7007F9A5A /* Build configuration list for PBXNativeTarget "HealthApp" */;
 			buildPhases = (
-				53C619B82DF3FF5B007F9A5A /* Sources */,
-				53C619B92DF3FF5B007F9A5A /* Frameworks */,
-				53C619BA2DF3FF5B007F9A5A /* Resources */,
+				53C619E42DF402A6007F9A5A /* Sources */,
+				53C619E52DF402A6007F9A5A /* Frameworks */,
+				53C619E62DF402A6007F9A5A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				53C619BE2DF3FF5B007F9A5A /* AryamanHealthApp */,
+				53C619EA2DF402A6007F9A5A /* HealthApp */,
 			);
-			name = AryamanHealthApp;
+			name = HealthApp;
 			packageProductDependencies = (
 			);
-			productName = AryamanHealthApp;
-			productReference = 53C619BC2DF3FF5B007F9A5A /* AryamanHealthApp.app */;
+			productName = HealthApp;
+			productReference = 53C619E82DF402A6007F9A5A /* HealthApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		53C619B42DF3FF5B007F9A5A /* Project object */ = {
+		53C619E02DF402A6007F9A5A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					53C619BB2DF3FF5B007F9A5A = {
+					53C619E72DF402A6007F9A5A = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 53C619B72DF3FF5B007F9A5A /* Build configuration list for PBXProject "AryamanHealthApp" */;
+			buildConfigurationList = 53C619E32DF402A6007F9A5A /* Build configuration list for PBXProject "HealthApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 53C619B32DF3FF5B007F9A5A;
+			mainGroup = 53C619DF2DF402A6007F9A5A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 53C619BD2DF3FF5B007F9A5A /* Products */;
+			productRefGroup = 53C619E92DF402A6007F9A5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53C619BB2DF3FF5B007F9A5A /* AryamanHealthApp */,
+				53C619E72DF402A6007F9A5A /* HealthApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53C619BA2DF3FF5B007F9A5A /* Resources */ = {
+		53C619E62DF402A6007F9A5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53C619B82DF3FF5B007F9A5A /* Sources */ = {
+		53C619E42DF402A6007F9A5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		53C619C82DF3FF5D007F9A5A /* Debug */ = {
+		53C619F42DF402A7007F9A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		53C619C92DF3FF5D007F9A5A /* Release */ = {
+		53C619F52DF402A7007F9A5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +244,14 @@
 			};
 			name = Release;
 		};
-		53C619CB2DF3FF5D007F9A5A /* Debug */ = {
+		53C619F72DF402A7007F9A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AryamanHealthApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HealthApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5QVPQY7PT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -265,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = argo.AryamanHealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = argo.HealthApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -273,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		53C619CC2DF3FF5D007F9A5A /* Release */ = {
+		53C619F82DF402A7007F9A5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AryamanHealthApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HealthApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5QVPQY7PT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = argo.AryamanHealthApp;
+				PRODUCT_BUNDLE_IDENTIFIER = argo.HealthApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53C619B72DF3FF5B007F9A5A /* Build configuration list for PBXProject "AryamanHealthApp" */ = {
+		53C619E32DF402A6007F9A5A /* Build configuration list for PBXProject "HealthApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53C619C82DF3FF5D007F9A5A /* Debug */,
-				53C619C92DF3FF5D007F9A5A /* Release */,
+				53C619F42DF402A7007F9A5A /* Debug */,
+				53C619F52DF402A7007F9A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53C619CA2DF3FF5D007F9A5A /* Build configuration list for PBXNativeTarget "AryamanHealthApp" */ = {
+		53C619F62DF402A7007F9A5A /* Build configuration list for PBXNativeTarget "HealthApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53C619CB2DF3FF5D007F9A5A /* Debug */,
-				53C619CC2DF3FF5D007F9A5A /* Release */,
+				53C619F72DF402A7007F9A5A /* Debug */,
+				53C619F82DF402A7007F9A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 53C619B42DF3FF5B007F9A5A /* Project object */;
+	rootObject = 53C619E02DF402A6007F9A5A /* Project object */;
 }

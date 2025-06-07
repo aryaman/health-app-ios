@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  AryamanHealthApp
+//  HealthApp
 //
 //  Created by Aryaman Goel on 2025-06-07.
 //
