@@ -15,7 +15,7 @@ struct HealthDataListView: View {
     
     var body: some View {
         List {
-            ForEach(0..<50) { i in
+            ForEach(0..<50) { _ in
                 HStack {
                     Text(Date(), format: .dateTime.month().day().year())
                     
@@ -42,9 +42,7 @@ struct HealthDataListView: View {
                 DatePicker("Date", selection: $addDate, displayedComponents: .date)
                 HStack {
                     Text("Value")
-                    
                     Spacer()
-                    
                     TextField("Value", text: .constant(""))
                         .multilineTextAlignment(.trailing)
                         .frame(width: 100)

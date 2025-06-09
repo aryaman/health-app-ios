@@ -61,8 +61,8 @@ struct DashboardView: View {
                 VStack(spacing: 20) {
                     
                     Picker("category", selection: $selectedCategory) {
-                        ForEach(HealthCategory.allCases) { category in
-                            Text(category.title)
+                        ForEach(HealthCategory.allCases) {
+                            Text($0.title)
                         }
                     }
                     .pickerStyle(.segmented)
