@@ -31,9 +31,27 @@ enum HealthCategory: CaseIterable, Identifiable {
             return .indigo
         }
     }
+    
+    var decimalPoints: Int {
+        switch self {
+        case .steps:
+            return 0
+        case .weight:
+            return 1
+        }
+    }
+    
+    var keyboardType: UIKeyboardType {
+        switch self {
+        case .steps:
+            return .numberPad
+        case .weight:
+            return .decimalPad
+        }
+    }
 }
 
-struct ContentView: View {
+struct DashboardView: View {
     
     @State private var selectedCategory: HealthCategory = .steps
     
@@ -102,7 +120,7 @@ struct ContentView: View {
             .padding()
             .navigationTitle("Dashboard")
             .navigationDestination(for: HealthCategory.self) { category in
-                Text("Category: \(category.title)")
+                HealthDataListView(category: selectedCategory)
             }
         }
         .tint(selectedCategory.colorTint)
@@ -110,5 +128,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    DashboardView()
 }
